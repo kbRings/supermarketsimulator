@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Simulator - A Realistic Shopping Experience Game</title>
+    <meta name="description" content="Experience the thrill of managing your own supermarket in this realistic shopping simulator game. Stock shelves, serve customers, and grow your business!">
+    <link rel="canonical" href="https://supermarketsimulator.space">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            red: '#FF3B30',
+                            green: '#34C759',
+                            purple: '#AF52DE',
+                            yellow: '#FFCC00',
+                            orange: '#FF9500',
+                            dark: '#1C1C1E',
+                            gray: '#8E8E93',
+                            lightgray: '#F2F2F7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        @media (max-width: 640px) {
+            .game-container {
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-lightgray text-apple-dark">
+    <header class="bg-apple-blue text-white p-4 md:p-6 shadow-md">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-center md:text-left mb-4 md:mb-0">
+                    <h1 class="text-3xl md:text-4xl font-bold">Supermarket Simulator</h1>
+                    <p class="text-lg mt-2">Master the art of supermarket management in this realistic shopping experience!</p>
+                </div>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#game" class="hover:text-apple-yellow transition-colors">Play Now</a></li>
+                        <li><a href="#about" class="hover:text-apple-yellow transition-colors">About</a></li>
+                        <li><a href="#features" class="hover:text-apple-yellow transition-colors">Features</a></li>
+                        <li><a href="#how-to-play" class="hover:text-apple-yellow transition-colors">How To Play</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-6">
+        <section id="game" class="my-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Play Supermarket Simulator</h2>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="game-container w-full h-screen max-h-[600px]">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/supermarket-simulator/index-og.html" 
+                            class="w-full h-full border-0" 
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">About Supermarket Simulator</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <p class="mb-4">Supermarket Simulator is an engaging and educational game that offers players the chance to experience the challenges and rewards of managing a retail business. Created by a team of developers passionate about simulation games, this title brings the excitement of retail management to your screen.</p>
+                <p>Whether you're a casual gamer looking for a fun way to pass the time or someone interested in business management, Supermarket Simulator offers an accessible yet deep gameplay experience. The game combines realistic mechanics with engaging progression systems to keep you coming back for more.</p>
+            </div>
+        </section>
+
+        <section id="features" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-blue">Game Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-orange mb-3">Realistic Simulation</h3>
+                    <p>Experience the authentic challenges of running a supermarket, from inventory management to customer service.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-green mb-3">Business Expansion</h3>
+                    <p>Start small and grow your supermarket empire as you learn to optimize operations and increase profits.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-purple mb-3">Strategic Challenges</h3>
+                    <p>Face various challenges like rush hours, seasonal demands, and unexpected events that test your management skills.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-red mb-3">Customer Relations</h3>
+                    <p>Build customer loyalty through excellent service, store layout optimization, and special promotions.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-yellow mb-3">Staff Management</h3>
+                    <p>Hire, train, and manage employees to ensure your supermarket runs smoothly even during peak hours.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold text-apple-blue mb-3">Customization Options</h3>
+                    <p>Design your supermarket layout, choose product selections, and create a unique shopping experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-play" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">How To Play</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-apple-purple mb-3">Basic Controls</h3>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><span class="font-semibold">WASD or Arrow Keys:</span> Move your character</li>
+                            <li><span class="font-semibold">E or Space:</span> Interact with objects and customers</li>
+                            <li><span class="font-semibold">Tab:</span> Open management menu</li>
+                            <li><span class="font-semibold">Esc:</span> Pause game</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-apple-orange mb-3">Game Objectives</h3>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><span class="font-semibold">Stock Shelves:</span> Purchase products and arrange them strategically</li>
+                            <li><span class="font-semibold">Serve Customers:</span> Help customers find what they need</li>
+                            <li><span class="font-semibold">Manage Resources:</span> Balance budget, staff, and inventory</li>
+                            <li><span class="font-semibold">Expand Business:</span> Reinvest profits to grow your store</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-dark text-white p-6">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2025 Supermarket Simulator. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-apple-blue transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-apple-blue transition-colors">Terms of Service</a>
+                    <a href="#" class="hover:text-apple-blue transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JSON-LD structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Supermarket Simulator",
+        "description": "Experience the thrill of managing your own supermarket in this realistic shopping simulator game. Stock shelves, serve customers, and grow your business!",
+        "genre": ["Simulation", "Management", "Business"],
+        "playMode": "SinglePlayer",
+        "applicationCategory": "Game",
+        "url": "https://supermarketsimulator.space",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+        }
+    }
+    </script>
+</body>
+</html>
